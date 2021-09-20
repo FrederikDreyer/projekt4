@@ -28,6 +28,10 @@ nav a {
   margin-left: auto;
 }
 
+.wrapper {
+  position: relative;
+}
+
 .hero_img {
   background-image: url(billeder/hero.jpg);
   width: 100%;
@@ -35,4 +39,25 @@ nav a {
   filter: grayscale(50%);
 }
 
-.hero_tekst
+.hero_tekst {
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.hero_dato {
+  font-size: 64px;
+}
+
+.hero_tekst2 {
+  color: white;
+  font-size: 32px;
+}
+
+.kunstner_tekst {
+  margin-left: 50px;
+  color: white;
+  font-size: 50px;
+  position: absolute;
+}
