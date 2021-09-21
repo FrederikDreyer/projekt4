@@ -82,9 +82,6 @@ button {
 
 /* POPULÆRE EVENTS */
 
-main {
-  margin: 0 50px;
-}
 
 main h1 {
   text-align: center;
@@ -93,8 +90,10 @@ main h1 {
 
 main section {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-bottom: 40px;
+  margin-left: 120px;
+  margin-right: 120px;
 }
 
 main section figure {
@@ -153,4 +152,45 @@ main section figure {
   position: absolute;
   bottom: 20px;
   left: 0px;
+}
+
+/* Om StudieEvent */
+
+.omos_overskrift {
+  margin-bottom: 90px;
+}
+
+.main_omos {
+  height: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: absolute;
+  background-color: white;
+  margin-left: 120px;
+  margin-right: 120px;
+  top: -50px;
+}
+
+.omos_text {
+  width: 50%;
+  margin: auto 0;
+}
+
+.omos_text p {
+  margin: 0 40px;
+  font-size: 20px;
+}
+
+.main_omos figure {
+  background-image: url(billeder/workplace.jpeg);
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+}
+
+.omos_wrapper {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  background-color: #F0F0F0;
 }
