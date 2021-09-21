@@ -4,6 +4,8 @@
   font-family: helvetica;
 }
 
+/* navigation */
+
 nav {
   display: flex;
   align-items: center;
@@ -20,7 +22,7 @@ nav a {
   padding: 20px;
   text-decoration: none;
   color: #F5F2F2;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /* Aktiviteter i odense sender de andre over mod højre */
@@ -28,36 +30,54 @@ nav a {
   margin-left: auto;
 }
 
-.wrapper {
+/* Hero */
+
+.hero_img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(billeder/hero.jpg);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
 }
 
-.hero_img {
-  background-image: url(billeder/hero.jpg);
-  width: 100%;
-  height: 540px;
-  filter: grayscale(50%);
-}
-
-.hero_tekst {
+.hero_text {
+  position: absolute;
   color: white;
-  display: flex;
-  align-items: center;
-  margin-left: 50px;
+  margin-left: 250px;
+  margin-top: 20px;
 }
 
 .hero_dato {
-  font-size: 64px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 80px;
 }
 
-.hero_tekst2 {
-  color: white;
-  font-size: 32px;
+.hero_dato2 {
+  font-size: 150px;
+  margin: 0;
 }
 
-.kunstner_tekst {
-  margin-left: 50px;
-  color: white;
-  font-size: 50px;
-  position: absolute;
+.hero_adresse {
+  margin: 0;
+  margin-top: 25px;
+  font-size: 20px;
 }
+
+.hero_dato3 {
+  font-size: 75px;
+  margin: 0;
+}
+
+.hero_kunstner {
+  font-size: 100px;
+  margin: 0;
+}
+
+button {
+  padding: 10px 50px;
+}
+
+/* POPULÆRE EVENTS */
