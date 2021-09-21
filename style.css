@@ -198,7 +198,7 @@ main section figure {
 /* FOOTER */
 footer{
   width: 100%;
-  background-color: #E6F1F0;
+  background-color: #122f36;
   color: black;
   display: flex;
 }
@@ -210,19 +210,20 @@ padding-bottom: 100px;
 
 .column a {
   display: block;
-  color: black;
+  color: #f5f2f2;
   text-decoration: none;
   margin: 25px 0;
 }
 
 .column a:hover {
   text-decoration: underline;
-  color: #19444D;
+  opacity: 50%;
   transition: 0.25s;
 }
 
 .column p {
  font-weight: bold;
+ color: #f5f2f2;
  padding-top: 80px;
  margin-bottom: 30px;
 }
@@ -238,7 +239,7 @@ i {
   font-size: 50px;
   text-align: center;
   text-decoration: none;
-  color: black;
+  color: #f5f2f2;
 }
 
 i:hover {
