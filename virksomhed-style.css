@@ -103,6 +103,110 @@ margin-top: 100px;
 /*sponsorer*/
 
 .spons_wrapper{
-  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 200px;
+  flex-wrap: wrap;
+}
+
+
+.spons1{
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  background-image: url(billeder/albani.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.spons2{
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  background-image: url(billeder/storms_pakhus.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.spons3{
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  background-image: url(billeder/studenterhuset.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.spons4{
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  background-image: url(billeder/ucl.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.spons5{
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  background-image: url(billeder/visitodense.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.spons6{
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  background-image: url(billeder/la.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.spons_wrapper2{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 300px;
+  flex-wrap: wrap;
+}
+
+.spons7{
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  background-image: url(billeder/rekom.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.spons8{
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  background-image: url(billeder/bargroup.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.partnerwrapper{
   width: 100%;
+  margin-top: 100px;
+}
+
+.partnerwrapper h1{
+text-align: center;
+margin-bottom: 100px;
+
 }
