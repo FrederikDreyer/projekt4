@@ -238,7 +238,9 @@ footer{
   background-color: #19444D;
   color: black;
   display: flex;
+  position: absolute;
 }
+
 
 .column{
 margin-left: 200px;
@@ -268,7 +270,7 @@ padding-bottom: 100px;
 .column3{
   margin-left: auto;
   margin-right: 180px;
-  margin-top: 180px;
+  margin-top: 100px;
 }
 
 i {
@@ -282,4 +284,9 @@ i {
 i:hover {
   opacity: 50%;
   transition: 0.5s;
+}
+
+.footer_logo {
+  color: white;
+  text-decoration: none;
 }
