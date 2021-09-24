@@ -1,7 +1,7 @@
 /*Hero*/
 
 .virksomhedhero_img {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(billeder/hero.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(billeder/team1.jpg);
   height: 410px;
   background-position: center;
   background-repeat: no-repeat;
@@ -66,7 +66,7 @@ margin-top: 100px;
   width: 475px;
   height: 400px;
   margin: 0;
-  background-image: url(billeder/samarbejde.jpeg);
+  background-image: url(billeder/team.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -78,7 +78,7 @@ margin-top: 100px;
   width: 475px;
   height: 400px;
   margin: 0;
-  background-image: url(billeder/leth.jpeg);
+  background-image: url(billeder/arbejdarbejd.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
