@@ -1,1 +1,22 @@
+.logo_link {
+  padding: 0;
+}
 
+.logo_link:hover {
+  text-decoration: none;
+}
+
+header {
+  background-color: #19444D;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  color: white;
+}
+
+main section {
+  padding: 20px;
+}
