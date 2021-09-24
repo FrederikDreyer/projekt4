@@ -4,6 +4,10 @@
   font-family: helvetica;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* navigation */
 
 nav {
