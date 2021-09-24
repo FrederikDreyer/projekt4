@@ -1,0 +1,212 @@
+/*Hero*/
+
+.virksomhedhero_img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(billeder/hero.jpg);
+  height: 410px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+
+/*Hvem er vi?-afsnit*/
+
+.hvemervi{
+  text-align: center;
+}
+
+.virksomhed_wrapper {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  background-color: #F0F0F0;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.virksomhed_omos {
+  height: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: absolute;
+  background-color: white;
+  margin-left: 200px;
+  margin-right: 200px;
+  top: -50px;
+}
+
+.virksomhed_omos figure {
+  background-image: url(billeder/omos.jpeg);
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+}
+
+
+/*samarbejdspartnere afsnit*/
+
+.samarbejde_wrapper{
+  position: relative;
+  width: 100%;
+
+}
+
+.samarbejde_billeder{
+display: flex;
+justify-content: space-between;
+margin-left: 200px;
+margin-right: 200px;
+margin-top: 100px;
+
+}
+
+.billede1{
+  width: 475px;
+  height: 400px;
+  margin: 0;
+  background-image: url(billeder/samarbejde.jpeg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.billede2{
+  width: 475px;
+  height: 400px;
+  margin: 0;
+  background-image: url(billeder/leth.jpeg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tekstwrapper{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.tekst1, .tekst2{
+  width: 475px;
+  line-height: 1.6;
+  font-size: 17px;
+  text-align: justify;
+}
+
+
+/*sponsorer*/
+
+.spons_wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 200px;
+  flex-wrap: wrap;
+}
+
+
+.spons1{
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  background-image: url(billeder/albani.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.spons2{
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  background-image: url(billeder/storms_pakhus.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.spons3{
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  background-image: url(billeder/studenterhuset.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.spons4{
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  background-image: url(billeder/ucl.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.spons5{
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  background-image: url(billeder/visitodense.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.spons6{
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  background-image: url(billeder/la.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.spons_wrapper2{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 300px;
+  flex-wrap: wrap;
+}
+
+.spons7{
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  background-image: url(billeder/rekom.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.spons8{
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  background-image: url(billeder/bargroup.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.partnerwrapper{
+  width: 100%;
+  margin-top: 100px;
+}
+
+.partnerwrapper h1{
+text-align: center;
+margin-bottom: 100px;
+
+}
