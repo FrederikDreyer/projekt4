@@ -1,8 +1,10 @@
-function contactFunction() {
-  var x = document.getElementById("contactDIV");
+function myFunction() {
+  var x = document.getElementById("myDIV");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
     x.style.display = "block";
   }
 }
+
+console.log("det virker man");

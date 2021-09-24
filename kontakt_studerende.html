@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="kontakt_studerende.css">
+    <script src="kontakt_studerende.js" defer ></script>
+    <script src="https://kit.fontawesome.com/635f0b0958.js" crossorigin="anonymous"></script>
+
     <title>Kontakt for studerende</title>
   </head>
 
@@ -38,7 +41,11 @@
             <label for="besked">Besked</label>
             <textarea id="besked" name="besked" style="height:200px"></textarea>
 
-            <input type="submit" value="Send">
+            <button type="button" name="button" onclick="contactFunction()">Send</button>
+
+            <div id="contactDIV">
+              <i class="fas fa-check-circle"></i>
+            </div>
 
           </form>
         </div>
@@ -46,24 +53,6 @@
       </section>
 
     </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     <footer>
