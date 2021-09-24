@@ -1,28 +1,638 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <script src="https://kit.fontawesome.com/6017415a1d.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="event_script.js" defer></script>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="event-style.css">
+    <link rel="stylesheet" href="main.css">
     <title>Events</title>
   </head>
   <body>
 
     <nav>
       <!-- logo -->
-      <a href="index.html"><h1>STUDIEEVENT.DK</h1></a>
+      <a href="index.html" class="logo_link"><h1>STUDIEEVENT.DK</h1></a>
 
       <!-- MENU -->
 
       <a href="#" class="odense">Aktiviteter</a>
       <a href="#">Foreslå begivenheder</a>
-      <a href="#">Kontakt</a>
+      <a href="kontakt_studerende.html">Kontakt</a>
+      <a href="virksomhed.html">Er du en virksomhed?</a>
     </nav>
 
+    <header>
+      <h1> Aktiviteter</h1>
+    </header>
+
+    <main>
+
+      <!-- filter knapper -->
+
+      <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Alle</button>
+        <button class="btn" onclick="filterSelection('uge')"> Denne Uge</button>
+        <button class="btn" onclick="filterSelection('måned')"> Måned</button>
+        <button class="btn" onclick="filterSelection('sport')"> Sport</button>
+        <button class="btn"
+        onclick="filterSelection('alkoholfri')">Alkohol fri</button>
+        <button class="btn" onclick="filterSelection('workshop')">Workshops</button>
+        <button class="btn" onclick="filterSelection('kultur')">Kultur</button>
+        <button class="btn" onclick="filterSelection('ucl')">UCL</button>
+      </div>
+
+      <div id="myDIV1">
+        <button class="btn_omevent" onclick="myFunction()" type="button" name="button">X</button>
+
+        <div class="omevent_wrapper">
+
+          <div class="omevent_text">
+          <h2>Brætspilscafé</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </p>
+          <p>
+            Pris: 50 kr.
+            <br>
+            Lokation: Studenterhuset Odense
+            <br>
+            Torsdag d. 23.01.2022
+          </p>
+          <i class="fab fa-facebook-square" style="font-size: 30px; color: black;"></i>
+          <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
+          </div>
+
+          <div class="omevent_figure">
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div id="myDIV2">
+        <button class="btn_omevent" onclick="myFunction2()" type="button" name="button">X</button>
+
+        <div class="omevent_wrapper">
+
+          <div class="omevent_text">
+          <h2>Brætspilscafé</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Pris: 50 kr.
+            <br>
+            Lokation: Studenterhuset Odense
+            <br>
+            Torsdag d. 23.01.2022
+          </p>
+          <i class="fab fa-facebook-square" style="font-size: 30px; color: black;"></i>
+          <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
+          </div>
+
+          <div class="omevent_figure">
+
+          </div>
+
+        </div>
+      </div>
+
+
+      <div id="myDIV3">
+        <button class="btn_omevent" onclick="myFunction3()" type="button" name="button">X</button>
+
+        <div class="omevent_wrapper">
+
+          <div class="omevent_text">
+          <h2>Brætspilscafé</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Pris: 50 kr.
+            <br>
+            Lokation: Studenterhuset Odense
+            <br>
+            Torsdag d. 23.01.2022
+          </p>
+          <i class="fab fa-facebook-square" style="font-size: 30px; color: black;"></i>
+          <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
+          </div>
+
+          <div class="omevent_figure">
+
+          </div>
+
+        </div>
+      </div>
+
+      <div id="myDIV4">
+        <button class="btn_omevent" onclick="myFunction4()" type="button" name="button">X</button>
+
+        <div class="omevent_wrapper">
+
+          <div class="omevent_text">
+          <h2>Brætspilscafé</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Pris: 50 kr.
+            <br>
+            Lokation: Studenterhuset Odense
+            <br>
+            Torsdag d. 23.01.2022
+          </p>
+          <i class="fab fa-facebook-square" style="font-size: 30px; color: black;"></i>
+          <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
+          </div>
+
+          <div class="omevent_figure">
+
+          </div>
+
+        </div>
+      </div>
+
+      <div id="myDIV5">
+        <button class="btn_omevent" onclick="myFunction5()" type="button" name="button">X</button>
+
+        <div class="omevent_wrapper">
+
+          <div class="omevent_text">
+          <h2>Brætspilscafé</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Pris: 50 kr.
+            <br>
+            Lokation: Studenterhuset Odense
+            <br>
+            Torsdag d. 23.01.2022
+          </p>
+          <i class="fab fa-facebook-square" style="font-size: 30px; color: black;"></i>
+          <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
+          </div>
+
+          <div class="omevent_figure">
+
+          </div>
+
+        </div>
+      </div>
+
+      <div id="myDIV6">
+        <button class="btn_omevent" onclick="myFunction6()" type="button" name="button">X</button>
+
+        <div class="omevent_wrapper">
+
+          <div class="omevent_text">
+          <h2>Brætspilscafé</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Pris: 50 kr.
+            <br>
+            Lokation: Studenterhuset Odense
+            <br>
+            Torsdag d. 23.01.2022
+          </p>
+          <i class="fab fa-facebook-square" style="font-size: 30px; color: black;"></i>
+          <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
+          </div>
+
+          <div class="omevent_figure">
+
+          </div>
+
+        </div>
+      </div>
+
+      <div id="myDIV7">
+        <button class="btn_omevent" onclick="myFunction7()" type="button" name="button">X</button>
+
+        <div class="omevent_wrapper">
+
+          <div class="omevent_text">
+          <h2>Brætspilscafé</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Pris: 50 kr.
+            <br>
+            Lokation: Studenterhuset Odense
+            <br>
+            Torsdag d. 23.01.2022
+          </p>
+          <i class="fab fa-facebook-square" style="font-size: 30px; color: black;"></i>
+          <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
+          </div>
+
+          <div class="omevent_figure">
+
+          </div>
+
+        </div>
+      </div>
+
+      <div id="myDIV8">
+        <button class="btn_omevent" onclick="myFunction8()" type="button" name="button">X</button>
+
+        <div class="omevent_wrapper">
+
+          <div class="omevent_text">
+          <h2>Brætspilscafé</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Pris: 50 kr.
+            <br>
+            Lokation: Studenterhuset Odense
+            <br>
+            Torsdag d. 23.01.2022
+          </p>
+          <i class="fab fa-facebook-square" style="font-size: 30px; color: black;"></i>
+          <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
+          </div>
+
+          <div class="omevent_figure">
+
+          </div>
+
+        </div>
+      </div>
+
+      <div id="myDIV9">
+        <button class="btn_omevent" onclick="myFunction9()" type="button" name="button">X</button>
+
+        <div class="omevent_wrapper">
+
+          <div class="omevent_text">
+          <h2>Brætspilscafé</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Pris: 50 kr.
+            <br>
+            Lokation: Studenterhuset Odense
+            <br>
+            Torsdag d. 23.01.2022
+          </p>
+          <i class="fab fa-facebook-square" style="font-size: 30px; color: black;"></i>
+          <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
+          </div>
+
+          <div class="omevent_figure">
+
+          </div>
+
+        </div>
+      </div>
+
+      <div id="myDIV10">
+        <button class="btn_omevent" onclick="myFunction10()" type="button" name="button">X</button>
+
+        <div class="omevent_wrapper">
+
+          <div class="omevent_text">
+          <h2>Brætspilscafé</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Pris: 50 kr.
+            <br>
+            Lokation: Studenterhuset Odense
+            <br>
+            Torsdag d. 23.01.2022
+          </p>
+          <i class="fab fa-facebook-square" style="font-size: 30px; color: black;"></i>
+          <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
+          </div>
+
+          <div class="omevent_figure">
+
+          </div>
+
+        </div>
+      </div>
+
+      <div id="myDIV11">
+        <button class="btn_omevent" onclick="myFunction11()" type="button" name="button">X</button>
+
+        <div class="omevent_wrapper">
+
+          <div class="omevent_text">
+          <h2>Brætspilscafé</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Pris: 50 kr.
+            <br>
+            Lokation: Studenterhuset Odense
+            <br>
+            Torsdag d. 23.01.2022
+          </p>
+          <i class="fab fa-facebook-square" style="font-size: 30px; color: black;"></i>
+          <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
+          </div>
+
+          <div class="omevent_figure">
+
+          </div>
+
+        </div>
+      </div>
+
+      <div id="myDIV12">
+        <button class="btn_omevent" onclick="myFunction12()" type="button" name="button">X</button>
+
+        <div class="omevent_wrapper">
+
+          <div class="omevent_text">
+          <h2>Brætspilscafé</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Pris: 50 kr.
+            <br>
+            Lokation: Studenterhuset Odense
+            <br>
+            Torsdag d. 23.01.2022
+          </p>
+          <i class="fab fa-facebook-square" style="font-size: 30px; color: black;"></i>
+          <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
+          </div>
+
+          <div class="omevent_figure">
+
+          </div>
+
+        </div>
+      </div>
+
+      <div id="myDIV13">
+        <button class="btn_omevent" onclick="myFunction13()" type="button" name="button">X</button>
+
+        <div class="omevent_wrapper">
+
+          <div class="omevent_text">
+          <h2>Brætspilscafé</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Pris: 50 kr.
+            <br>
+            Lokation: Studenterhuset Odense
+            <br>
+            Torsdag d. 23.01.2022
+          </p>
+          <i class="fab fa-facebook-square" style="font-size: 30px; color: black;"></i>
+          <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
+          </div>
+
+          <div class="omevent_figure">
+
+          </div>
+
+        </div>
+      </div>
+
+      <div id="myDIV14">
+        <button class="btn_omevent" onclick="myFunction14()" type="button" name="button">X</button>
+
+        <div class="omevent_wrapper">
+
+          <div class="omevent_text">
+          <h2>Brætspilscafé</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Pris: 50 kr.
+            <br>
+            Lokation: Studenterhuset Odense
+            <br>
+            Torsdag d. 23.01.2022
+          </p>
+          <i class="fab fa-facebook-square" style="font-size: 30px; color: black;"></i>
+          <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
+          </div>
+
+          <div class="omevent_figure">
+
+          </div>
+
+        </div>
+      </div>
+
+      <div id="myDIV15">
+        <button class="btn_omevent" onclick="myFunction15()" type="button" name="button">X</button>
+
+        <div class="omevent_wrapper">
+
+          <div class="omevent_text">
+          <h2>Brætspilscafé</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Pris: 50 kr.
+            <br>
+            Lokation: Studenterhuset Odense
+            <br>
+            Torsdag d. 23.01.2022
+          </p>
+          <i class="fab fa-facebook-square" style="font-size: 30px; color: black;"></i>
+          <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
+          </div>
+
+          <div class="omevent_figure">
+
+          </div>
+
+        </div>
+      </div>
+
+      <div id="myDIV16">
+        <button class="btn_omevent" onclick="myFunction16()" type="button" name="button">X</button>
+
+        <div class="omevent_wrapper">
+
+          <div class="omevent_text">
+          <h2>Brætspilscafé</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Pris: 50 kr.
+            <br>
+            Lokation: Studenterhuset Odense
+            <br>
+            Torsdag d. 23.01.2022
+          </p>
+          <i class="fab fa-facebook-square" style="font-size: 30px; color: black;"></i>
+          <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
+          </div>
+
+          <div class="omevent_figure">
+
+          </div>
+
+        </div>
+      </div>
+
+      <div id="myDIV17">
+        <button class="btn_omevent" onclick="myFunction17()" type="button" name="button">X</button>
+
+        <div class="omevent_wrapper">
+
+          <div class="omevent_text">
+          <h2>Brætspilscafé</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Pris: 50 kr.
+            <br>
+            Lokation: Studenterhuset Odense
+            <br>
+            Torsdag d. 23.01.2022
+          </p>
+          <i class="fab fa-facebook-square" style="font-size: 30px; color: black;"></i>
+          <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
+          </div>
+
+          <div class="omevent_figure">
+
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+      <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+      <div class="wrapper">
+
+        <div id="bombay" class="filterDiv uge måned kultur">
+          <p>DR. Bombay <br> 28.09.2021</p>
+          <br>
+          <button onclick="myFunction()" class="btn_semere" type="button" name="button">Se mere</button>
+        </div>
+
+        <div id="chess" class="filterDiv uge måned alkoholfri ucl">
+          <p>Brætspilscafé <br> 30.09.2021</p>
+          <br>
+          <button onclick="myFunction2()" class="btn_semere" type="button" name="button">Se mere</button>
+        </div>
+
+        <div id="volley" class="filterDiv uge måned sport alkoholfri ucl">
+          <p>Volleyball <br> 01.10.2021</p>
+          <br>
+          <button onclick="myFunction3()" class="btn_semere"type="button" name="button">Se mere</button>
+        </div>
+
+        <div id="træning" class="filterDiv sport uge alkoholfri måned ucl">
+          <p>Træning <br> 02.10.2021</p>
+          <br>
+          <button onclick="myFunction4()" class="btn_semere"type="button" name="button">Se mere</button>
+        </div>
+
+        <div id="fodbold" class="filterDiv sport alkoholfri uge måned ucl">
+          <p>Fodbold <br> 28.09.2021</p>
+          <br>
+          <button onclick="myFunction5()" class="btn_semere"type="button" name="button">Se mere</button>
+        </div>
+
+        <div id="kode" class="filterDiv workshop måned alkoholfri ucl">
+          <p>Kode-Workshop <br> 14.10.2021</p>
+          <br>
+          <button onclick="myFunction6()" class="btn_semere"type="button" name="button">Se mere</button>
+        </div>
+
+        <div id="adobe" class="filterDiv måned workshop alkoholfri ucl">
+          <p>Adobe-Wokshop <br> 09.10.2021</p>
+          <br>
+          <button onclick="myFunction7()" class="btn_semere"type="button" name="button">Se mere</button>
+        </div>
+
+        <div id="standup" class="filterDiv måned kultur">
+          <p>Stand-up <br> 16.10.2021</p>
+          <br>
+          <button onclick="myFunction8()" class="btn_semere"type="button" name="button">Se mere</button>
+        </div>
+
+        <div id="sulka" class="filterDiv kultur måned">
+          <p>Sulka koncert <br> 23.10.2021</p>
+          <br>
+          <button onclick="myFunction9()" class="btn_semere"type="button" name="button">Se mere</button>
+        </div>
+
+        <div id="bar" class="filterDiv uge måned ucl">
+          <p>Fredags Bar <br> 01.10.2021</p>
+          <br>
+          <button onclick="myFunction10()" class="btn_semere"type="button" name="button">Se mere</button>
+        </div>
+
+        <div id="bowling" class="filterDiv måned">
+          <p>Øl Bowling <br> 30.10.2021</p>
+          <br>
+          <button onclick="myFunction11()" class="btn_semere"type="button" name="button">Se mere</button>
+        </div>
+
+        <div id="brunner" class="filterDiv workshop uge måned alkoholfri">
+          <p>Brunsviger Workshop <br> 29.09.2021</p>
+          <br>
+          <button onclick="myFunction12()" class="btn_semere"type="button" name="button">Se mere</button>
+        </div>
+
+        <div id="pub" class="filterDiv måned">
+          <p>Pub Quiz <br> 15.10.2021</p>
+          <br>
+          <button onclick="myFunction13()" class="btn_semere"type="button" name="button">Se mere</button>
+        </div>
+
+        <div id="network" class="filterDiv måned workshop ucl alkoholfri">
+          <p>Networking Workshop <br> 26.10.2021</p>
+          <br>
+          <button onclick="myFunction14()" class="btn_semere"type="button" name="button">Se mere</button>
+        </div>
+
+        <div id="video" class="filterDiv måned workshop alkoholfri ucl">
+          <p>Video Workshop <br> 18.10.2021</p>
+          <br>
+          <button onclick="myFunction15()" class="btn_semere"type="button" name="button">Se mere</button>
+        </div>
+
+        <div id="leth" class="filterDiv måned kultur">
+          <p>Jørgen Leth Fordrag <br> 11.10.2021</p>
+          <br>
+          <button onclick="myFunction16()" id="myBtn" class="btn_semere" type="button" name="button">Se mere</button>
+        </div>
+
+        <div id="ol" class="filterDiv måned kultur uge">
+          <p>Ølsmagning <br> 02.10.2021</p>
+          <br>
+          <button onclick="myFunction17()" class="btn_semere" type="button" name="button">Se mere</button>
+        </div>
+
+      </div>
+
+    </main>
+
     <footer>
-
-
-
 
       <div class="column">
         <p>Menu:</p>
@@ -48,8 +658,6 @@
 
 
       </div>
-
-
 
     </footer>
 
