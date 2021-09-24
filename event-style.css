@@ -17,6 +17,212 @@ header h1 {
   color: white;
 }
 
-main section {
-  padding: 20px;
+
+/* Filter knapper */
+
+.wrapper {
+  overflow: hidden;
+  margin: 0 200px;
+}
+
+#myBtnContainer {
+  padding: 0 200px;
+  background-color: #E6F1F0;
+}
+
+.filterDiv {
+  text-align: center;
+  float: left;
+  background-color: black;
+  color: #ffffff;
+  width: 200px;
+  height: 300px;
+  margin: 3px;
+  text-align: center;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #122f36;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #F7E46E;
+  color: black;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+/* koncert annoncerne */
+
+/* tekst og knapper */
+
+.filterDiv p {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: inline-block;
+  padding: 2px 0px;
+  width: 180px;
+  margin: 210px auto 0 auto;
+  font-size: 18px;
+}
+
+.btn_semere {
+  padding: 5px 60px;
+  background-color: #122f36;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+}
+
+.btn_semere:hover {
+  background-color: #F7E46E;
+  color: black;
+}
+
+/* billeder */
+
+#bombay, #chess, #volley, #træning, #fodbold, #kode, #adobe, #standup, #sulka, #bar, #bowling, #brunner, #pub, #network, #video, #leth, #ol {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bombay {
+  background-image: url(billeder/drbombay-test.jpeg);
+}
+
+#chess {
+  background-image: url(billeder/chess.jpeg);
+}
+
+#volley {
+  background-image: url(billeder/volley.jpeg);
+}
+
+#træning {
+  background-image: url(billeder/træning.jpeg);
+}
+
+#fodbold {
+  background-image: url(billeder/fodbold.jpeg);
+}
+
+#kode {
+  background-image: url(billeder/kode.jpeg);
+}
+
+#adobe {
+  background-image: url(billeder/adobe.jpeg);
+}
+
+#standup {
+  background-image: url(billeder/mic.jpeg);
+}
+
+#sulka {
+  background-image: url(billeder/sulda.jpeg);
+}
+
+#bar {
+  background-image: url(billeder/fadøls.jpeg);
+}
+
+#bowling {
+  background-image: url(billeder/bowling.jpeg);
+}
+
+#brunner {
+  background-image: url(billeder/brunsviger.jpeg);
+}
+
+#pub {
+  background-image: url(billeder/pub.png);
+}
+
+#network {
+  background-image: url(billeder/network.jpeg);
+}
+
+#video {
+  background-image: url(billeder/video.jpeg);
+}
+
+#leth {
+  background-image: url(billeder/leth.jpeg);
+}
+
+#ol {
+  background-image: url(billeder/ol.jpeg);
+}
+
+/* popup tekst om event */
+
+#myDIV1, #myDIV2, #myDIV3, #myDIV4, #myDIV5, #myDIV6, #myDIV7, #myDIV8, #myDIV9, #myDIV10, #myDIV11, #myDIV12, #myDIV13, #myDIV14, #myDIV15, #myDIV16, #myDIV17     {
+  width: auto;
+  height: 500px;
+  top: 110px;
+  right: 230px;
+  left: 230px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  display: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn_omevent {
+  cursor: pointer;
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  background-color: #122f36;
+  color: white;
+  border: none;
+}
+
+.btn_omevent:hover {
+  color: black;
+}
+
+
+.omevent_wrapper {
+  display: flex;
+}
+
+.omevent_text {
+  width: 50%;
+  margin: 50px;
+  line-height: 1.6;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.omevent_figure {
+  background-image: url(billeder/chess.jpeg);
+  width: 400px;
+  height: 400px;
+  margin: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+i {
+  color: black;
 }
