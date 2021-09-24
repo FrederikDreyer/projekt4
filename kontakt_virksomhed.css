@@ -35,6 +35,8 @@ input[type=text], select, textarea {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   section {
@@ -47,6 +49,24 @@ input[type=text], select, textarea {
 
   h3 {
     text-align: center;
-    padding: 2rem 12rem;
+    padding: 2rem 200px;
   }
   
+
+  #myDIV {
+    width: 100px;
+    padding: 50px 0;
+    text-align: center;
+    /* background-color: lightblue; */
+    margin-top: 20px;
+    display: none;
+    position: absolute;
+    bottom: 75px;
+    margin-left: 250px;
+  }
+
+
+#myDIV i {
+    color: green;
+    font-size: 250px;
+}

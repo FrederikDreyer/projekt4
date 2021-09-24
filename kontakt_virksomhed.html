@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="kontakt_virksomhed.css">
+    <script src="kontakt_virksomhed.js" defer></script>
+    <script src="https://kit.fontawesome.com/635f0b0958.js" crossorigin="anonymous"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontakt for virksomheder</title>
@@ -47,8 +49,15 @@
                   <label for="besked">Besked</label>
                   <textarea id="besked" name="besked" style="height:200px"></textarea>
               
-                  <input type="submit" value="Send">
-              
+                  <!-- <input type="submit" value="Send"> -->
+                  
+                  <button type="button" name="button" onclick="myFunction()">
+                 Send</button>
+
+                <div id="myDIV">
+                    <i class="fas fa-check-circle"></i>
+                  </div>
+
                 </form>
               </div>
         </section>
