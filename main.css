@@ -4,6 +4,10 @@
   font-family: helvetica;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* navigation */
 
 nav {
@@ -16,6 +20,10 @@ nav {
 nav h1 {
   color: #F5F2F2;
   margin: 20px 0;
+}
+
+.logo_link {
+  padding: 0;
 }
 
 nav a {
@@ -129,11 +137,25 @@ main section figure {
 }
 
 .main_events3 {
-  background-image: url(billeder/leth.jpeg);
+  background-image: url(billeder/nastenleth.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 12px 50px;
+  background-color: #122f36;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #F7E46E;
+  color: black;
 }
 
 .main_btn {
