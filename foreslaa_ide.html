@@ -1,0 +1,87 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="kontakt_virksomhed.css">
+    <script src="kontakt_virksomhed.js" defer></script>
+    <script src="https://kit.fontawesome.com/635f0b0958.js" crossorigin="anonymous"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foreslå begivenhed</title>
+</head>
+
+<body>
+    
+    <nav>
+        <!-- LOGO -->
+        <h1>STUDIEEVENT.DK</h1>
+
+        <!-- MENU -->
+        <a href="#" class="odense">Aktiviteter</a>
+        <a href="#">Foreslå begivenheder</a>
+        <a href="#">Kontakt</a>
+        <a href="#">Er du en virksomhed?</a>
+      </nav>
+
+    <main>
+
+<h1>FORESLÅ BEGIVENHED</h1>
+
+<h2>Synes du vi mangler en event? Så giv os en idé om hvilken event du gerne vil se, fremover. </h2>
+
+<section>
+            <!-- KONTAKT FORMULAR -->
+            <div class="container">
+                <form action="action_page.php">
+              
+                  <label for="navn">Navn</label>
+                  <input type="text" id="navn" name="navn">
+              
+                  <label for="email">Email</label>
+                  <input type="text" id="email" name="email">
+                                         
+                  <label for="beskriv">Beskriv din idé</label>
+                  <textarea id="beskriv" name="beskriv" style="height:200px"></textarea>
+              
+                  <!-- <input type="submit" value="Send"> -->
+                  
+                  <button type="button" name="button" onclick="myFunction()">
+                 Send dit forslag</button>
+
+                <div id="myDIV">
+                    <i class="fas fa-check-circle"></i>
+                  </div>
+
+                </form>
+              </div>
+        </section>
+
+    </main>
+
+      <footer>
+        <div class="column">
+          <p>Menu:</p>
+          <a href="#">Odense</a>
+          <a href="#">UCL</a>
+          <a href="#">Foreslå begivenhed</a>
+          <a href="#">Kontakt</a>
+        </div>
+  
+        <div class="column">
+          <p>Virksomheder:</p>
+          <a href="#">Log ind</a>
+          <a href="#">Kontakt</a>
+          <a href="#">Opret begivenhed</a>
+          <a href="#">Om os</a>
+        </div>
+  
+        <div class="column3">
+          <a href="#"><i class="fab fa-facebook-square"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a> 
+        </div>
+  
+      </footer>
+</body>
+</html>
