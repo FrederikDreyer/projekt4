@@ -106,23 +106,23 @@ header h1 {
 }
 
 #chess {
-  background-image: url(billeder/chess.jpeg);
+  background-image: url(billeder/bratspil.jpg);
 }
 
 #volley {
-  background-image: url(billeder/volley.jpeg);
+  background-image: url(billeder/volleyball.jpg);
 }
 
 #træning {
-  background-image: url(billeder/træning.jpeg);
+  background-image: url(billeder/traning.jpg);
 }
 
 #fodbold {
-  background-image: url(billeder/fodbold.jpeg);
+  background-image: url(billeder/fodbold.jpg);
 }
 
 #kode {
-  background-image: url(billeder/kode.jpeg);
+  background-image: url(billeder/code.jpg);
 }
 
 #adobe {
@@ -130,15 +130,15 @@ header h1 {
 }
 
 #standup {
-  background-image: url(billeder/mic.jpeg);
+  background-image: url(billeder/mic.jpg);
 }
 
 #sulka {
-  background-image: url(billeder/sulda.jpeg);
+  background-image: url(billeder/sulka.jpg);
 }
 
 #bar {
-  background-image: url(billeder/fadøls.jpeg);
+  background-image: url(billeder/fredagsbar.jpg);
 }
 
 #bowling {
@@ -150,23 +150,23 @@ header h1 {
 }
 
 #pub {
-  background-image: url(billeder/pub.png);
+  background-image: url(billeder/pub.jpg);
 }
 
 #network {
-  background-image: url(billeder/network.jpeg);
+  background-image: url(billeder/network.jpg);
 }
 
 #video {
-  background-image: url(billeder/video.jpeg);
+  background-image: url(billeder/videowork.jpg);
 }
 
 #leth {
-  background-image: url(billeder/leth.jpeg);
+  background-image: url(billeder/nastenleth.jpg);
 }
 
 #ol {
-  background-image: url(billeder/ol.jpeg);
+  background-image: url(billeder/beer.jpg);
 }
 
 /* popup tekst om event */
