@@ -208,7 +208,7 @@ h2 {
 }
 
 .omevent_figure {
-  background-image: url(billeder/chess.jpeg);
+  background-image: url(billeder/brunsviger.jpeg);
   width: 400px;
   height: 400px;
   margin: 50px;
@@ -227,5 +227,14 @@ i {
   }
   #myBtnContainer {
     padding: 0 150px;
+  }
+}
+
+@media screen and (max-width: 1073px) {
+  .wrapper {
+    margin: 0 75px;
+  }
+  #myBtnContainer {
+    padding: 0 75px;
   }
 }

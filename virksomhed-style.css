@@ -245,3 +245,53 @@ margin-bottom: 100px;
     text-align: justify;
   }
 }
+
+@media screen and (max-width: 1177px) {
+  .virksomhed_wrapper {
+    height: 400px;
+  }
+
+  .virksomhed_omos {
+    height: 400px;
+  }
+
+  .billede1, .billede2 {
+    width: 375px;
+    height: 300px;
+  }
+
+  .tekst1, .tekst2{
+    width: 375px;
+    line-height: 1.6;
+    font-size: 17px;
+    text-align: justify;
+  }
+
+  .spons_wrapper2{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1073px) {
+  .virksomhed_omos {
+    margin-left: 75px;
+    margin-right: 75px;
+  }
+
+  .samarbejde_billeder{
+  margin-left: 75px;
+  margin-right: 75px;
+  }
+
+  .tekstwrapper{
+    margin-left: 75px;
+    margin-right: 75px;
+  }
+
+  .spons_wrapper {
+    margin: 0 75px;
+  }
+}

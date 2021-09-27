@@ -319,3 +319,91 @@ i:hover {
     width: 250px;
   }
 }
+
+@media screen and (max-width: 1073px) {
+  nav {
+    padding: 0 25px;
+  }
+  main section {
+    margin-left: 75px;
+    margin-right: 75px;
+  }
+
+  .main_omos {
+    margin-left: 75px;
+    margin-right: 75px;
+  }
+
+  .column {
+    margin-left: 75px;
+  }
+
+  .hero_text {
+    margin-left: 75px;
+  }
+}
+
+@media screen and (max-width: 923px) {
+  main section {
+    display: block;
+  }
+
+  .main_events1, .main_events2, .main_events3 {
+    margin: 0 auto;
+    width: 600px;
+
+  }
+  .main_events3 {
+    background-position: top;
+  }
+
+  .omos_text {
+    width: 100%;
+  }
+
+  .main_omos figure {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .omos_wrapper {
+    height: 450px;
+  }
+
+  .omos_overskrift {
+    margin: 20px 0 20px 40px;
+  }
+}
+
+@media only screen and (device-width : 375px) {
+  main section {
+    display: block;
+  }
+
+  .main_events1, .main_events2, .main_events3 {
+    margin: 0 auto;
+    width: 800px;
+    height: 600px;
+
+  }
+  .main_events3 {
+    background-position: top;
+  }
+
+  .omos_text {
+    width: 100%;
+  }
+
+  .main_omos figure {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .omos_wrapper {
+    height: 450px;
+  }
+
+  .omos_overskrift {
+    margin: 20px 0 20px 40px;
+  }
+}
