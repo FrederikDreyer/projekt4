@@ -15,6 +15,7 @@ nav {
   align-items: center;
   background-color: #122f36;
   padding: 0 100px;
+
 }
 
 nav h1 {
@@ -23,14 +24,18 @@ nav h1 {
 }
 
 .logo_link {
-  padding: 0;
+  margin: 20px 0;
+}
+
+.logo_link:hover {
+  text-decoration: none;
 }
 
 nav a {
   padding: 20px;
   text-decoration: none;
   color: #F5F2F2;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 nav a:hover {
