@@ -20,12 +20,8 @@ nav {
 
 nav h1 {
   color: #F5F2F2;
-  margin: 20px 0;
 }
 
-.logo_link {
-  margin: 10px 0 20px 0;
-}
 
 .logo_link:hover {
   text-decoration: none;
