@@ -22,9 +22,13 @@ nav h1 {
   color: #F5F2F2;
 }
 
+.logo_link{
+  border: 0;
+}
 
 .logo_link:hover {
   text-decoration: none;
+
 }
 
 nav a {
