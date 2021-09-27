@@ -318,5 +318,8 @@ i:hover {
 }
 
 @media screen and (max-width: 1264px) {
-
+  main section figure {
+    height: 300px;
+    width: 250px;
+  }
 }
