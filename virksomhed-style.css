@@ -395,15 +395,10 @@ margin-bottom: 100px;
   .tekst1_mobil, .tekst2_mobil {
     display: block;
     font-size: 20px;
-    color: deeppink;
   }
 
   .tekst2_mobil p {
     font-size: 30px;
-  }
-
-  a {
-    color: deeppink;
   }
 }
 

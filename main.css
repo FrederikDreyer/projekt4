@@ -306,6 +306,7 @@ i:hover {
 }
 
 
+
 @media screen and (max-width: 1350px) {
   main section {
     margin-left: 150px;
@@ -460,6 +461,10 @@ i:hover {
 @media screen and (max-width: 513px) {
   .omos_wrapper {
     height: 550px;
+  }
+
+  body {
+    background-color: deeppink;
   }
 }
 
