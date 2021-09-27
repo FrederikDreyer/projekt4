@@ -226,3 +226,12 @@ h2 {
 i {
   color: black;
 }
+
+@media screen and (max-width: 1350px) {
+  .wrapper {
+    margin: 0 150px;
+  }
+  #myBtnContainer {
+    padding: 0 150px;
+  }
+}

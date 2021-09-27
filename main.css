@@ -290,3 +290,28 @@ i:hover {
   color: white;
   text-decoration: none;
 }
+
+
+@media screen and (max-width: 1350px) {
+  main section {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  .main_omos {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  .column {
+    margin-left: 150px;
+  }
+
+  .hero_text {
+    margin-left: 150px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  
+}
