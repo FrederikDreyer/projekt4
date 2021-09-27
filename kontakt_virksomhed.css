@@ -2,19 +2,17 @@
     font-family: 'Helvetica';
 }
 
-/* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
 }
-  
-  /* Style the submit button with a specific background color etc */
+
   input[type=submit] {
     background-color: #122f36;
     color: white;
@@ -23,14 +21,12 @@ input[type=text], select, textarea {
     border-radius: 4px;
     cursor: pointer;
   }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
+
   input[type=submit]:hover {
     background-color: #f7e46e;
     color: black;
   }
-  
-  /* Add a background color and some padding around the form */
+
   .container {
     border-radius: 5px;
     background-color: #f2f2f2;
@@ -41,7 +37,7 @@ input[type=text], select, textarea {
 
   section {
       padding: 50px 0px;
-  } 
+  }
 
   h2 {
     text-align: center;
@@ -51,20 +47,18 @@ input[type=text], select, textarea {
     text-align: center;
     padding: 2rem 200px;
   }
-  
+
 
   #myDIV {
     width: 100px;
     padding: 50px 0;
     text-align: center;
-    /* background-color: lightblue; */
     margin-top: 20px;
     display: none;
     position: absolute;
     bottom: 75px;
     margin-left: 250px;
   }
-
 
 #myDIV i {
     color: green;
