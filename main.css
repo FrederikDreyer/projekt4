@@ -458,13 +458,9 @@ i:hover {
   }
 }
 
-@media screen and (max-width: 513px) {
+@media only screen and (max-width: 513px) {
   .omos_wrapper {
     height: 550px;
-  }
-
-  body {
-    background-color: deeppink;
   }
 }
 
