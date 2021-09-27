@@ -24,7 +24,7 @@ nav h1 {
 }
 
 .logo_link {
-  margin: 20px 0 20px -25px;
+  margin: 10px 0 20px 0;
 }
 
 .logo_link:hover {
@@ -318,5 +318,5 @@ i:hover {
 }
 
 @media screen and (max-width: 1350px) {
-  
+
 }
