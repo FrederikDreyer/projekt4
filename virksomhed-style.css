@@ -231,3 +231,17 @@ margin-bottom: 100px;
     margin: 0 150px;
   }
 }
+
+@media screen and (max-width: 1264px) {
+  .billede1, .billede2 {
+    width: 425px;
+    height: 350px;
+  }
+
+  .tekst1, .tekst2{
+    width: 425px;
+    line-height: 1.6;
+    font-size: 17px;
+    text-align: justify;
+  }
+}
