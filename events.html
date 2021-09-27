@@ -16,31 +16,47 @@
 
       <!-- MENU -->
 
-      <a href="#" class="odense">Events</a>
+      <a href="events.html" class="odense">Events</a>
+      <a href="#" class="mobil_a">Foreslå begivenheder</a>
+      <a href="kontakt_studerende.html" class="mobil_a">Kontakt</a>
+      <a href="virksomhed.html" class="mobil_a">Er du en virksomhed?</a>
+
+      <div class="hamburgermenu" onclick="myFunction18()">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- navigation på mobil -->
+
+    <div id="mobil_nav">
+
+      <a href="events.html" class="odense">Events</a>
       <a href="#">Foreslå begivenheder</a>
       <a href="kontakt_studerende.html">Kontakt</a>
       <a href="virksomhed.html">Er du en virksomhed?</a>
-    </nav>
+
+    </div>
 
     <header>
       <h1> Events</h1>
     </header>
 
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')"> Alle</button>
+      <button class="btn" onclick="filterSelection('uge')"> Denne Uge</button>
+      <button class="btn" onclick="filterSelection('måned')"> Måned</button>
+      <button class="btn" onclick="filterSelection('sport')"> Sport</button>
+      <button class="btn"
+      onclick="filterSelection('alkoholfri')">Alkohol fri</button>
+      <button class="btn" onclick="filterSelection('workshop')">Workshops</button>
+      <button class="btn" onclick="filterSelection('kultur')">Kultur</button>
+      <button class="btn" onclick="filterSelection('ucl')">UCL</button>
+    </div>
+
+
     <main>
 
       <!-- filter knapper -->
-
-      <div id="myBtnContainer">
-        <button class="btn active" onclick="filterSelection('all')"> Alle</button>
-        <button class="btn" onclick="filterSelection('uge')"> Denne Uge</button>
-        <button class="btn" onclick="filterSelection('måned')"> Måned</button>
-        <button class="btn" onclick="filterSelection('sport')"> Sport</button>
-        <button class="btn"
-        onclick="filterSelection('alkoholfri')">Alkohol fri</button>
-        <button class="btn" onclick="filterSelection('workshop')">Workshops</button>
-        <button class="btn" onclick="filterSelection('kultur')">Kultur</button>
-        <button class="btn" onclick="filterSelection('ucl')">UCL</button>
-      </div>
 
       <div id="myDIV1">
         <button class="btn_omevent" onclick="myFunction()" type="button" name="button">X</button>

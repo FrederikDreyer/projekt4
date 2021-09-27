@@ -98,6 +98,10 @@ margin-top: 100px;
   text-align: justify;
 }
 
+.tekst1_mobil, .tekst2_mobil {
+  display: none;
+}
+
 
 /*sponsorer*/
 
@@ -240,9 +244,6 @@ margin-bottom: 100px;
 
   .tekst1, .tekst2{
     width: 425px;
-    line-height: 1.6;
-    font-size: 17px;
-    text-align: justify;
   }
 }
 
@@ -262,9 +263,6 @@ margin-bottom: 100px;
 
   .tekst1, .tekst2{
     width: 375px;
-    line-height: 1.6;
-    font-size: 17px;
-    text-align: justify;
   }
 
   .spons_wrapper2{
@@ -291,7 +289,212 @@ margin-bottom: 100px;
     margin-right: 75px;
   }
 
-  .spons_wrapper {
+  .spons_wrapper, .spons_wrapper2 {
     margin: 0 75px;
   }
+}
+
+@media screen and (max-width: 923px) {
+  .virksomhed_omos figure {
+    width: 100%;
+    height: 70%;
+    background-position: top;
+  }
+
+  .samarbejde_billeder {
+    display: block;
+  }
+
+  .billede1 {
+    width: 100%;
+    background-position: top;
+  }
+
+  .billede2 {
+    width: 100%;
+    background-size: cover;
+  }
+
+  .tekst1, .tekst2 {
+    display: none;
+  }
+
+  .tekst1_mobil, .tekst2_mobil {
+    display: block;
+  }
+
+
+}
+
+@media screen and (max-width: 923px) {
+  .virksomhed_wrapper {
+    height: 450px;
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .virksomhed_wrapper {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .virksomhed_wrapper {
+    height: 550px;
+  }
+}
+
+@media screen and (max-width: 562px) {
+  .virksomhed_wrapper {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 506px) {
+  .virksomhed_wrapper {
+    height: 650px;
+  }
+}
+
+@media only screen and (device-width : 375px) {
+  * p {
+    font-size: 30px;
+  }
+  .virksomhed_omos {
+    height: 800px;
+  }
+
+  .virksomhed_omos figure {
+    width: 100%;
+    height: 50%;
+  }
+
+  .virksomhed_wrapper {
+    height: 900px;
+  }
+
+  .samarbejde_billeder {
+    display: block;
+  }
+
+  .billede1 {
+    width: 100%;
+    background-position: top;
+  }
+
+  .billede2 {
+    width: 100%;
+    background-size: cover;
+  }
+
+  .tekst1, .tekst2 {
+    display: none;
+  }
+
+  .tekst1_mobil, .tekst2_mobil {
+    display: block;
+    font-size: 20px;
+    color: deeppink;
+  }
+
+  .tekst2_mobil p {
+    font-size: 30px;
+  }
+
+  a {
+    color: deeppink;
+  }
+}
+
+@media only screen and (device-width : 414px) {
+  * p {
+    font-size: 30px;
+  }
+  .virksomhed_omos {
+    height: 800px;
+  }
+
+  .virksomhed_omos figure {
+    width: 100%;
+    height: 50%;
+  }
+
+  .virksomhed_wrapper {
+    height: 900px;
+  }
+
+  .samarbejde_billeder {
+    display: block;
+  }
+
+  .billede1 {
+    width: 100%;
+    background-position: top;
+  }
+
+  .billede2 {
+    width: 100%;
+    background-size: cover;
+  }
+
+  .tekst1, .tekst2 {
+    display: none;
+  }
+
+  .tekst1_mobil, .tekst2_mobil {
+    display: block;
+    font-size: 20px;
+  }
+
+  .tekst2_mobil p {
+    font-size: 30px;
+  }
+
+}
+
+@media only screen and (device-width : 320px) {
+  * p {
+    font-size: 30px;
+  }
+  .virksomhed_omos {
+    height: 800px;
+  }
+
+  .virksomhed_omos figure {
+    width: 100%;
+    height: 50%;
+  }
+
+  .virksomhed_wrapper {
+    height: 900px;
+  }
+
+  .samarbejde_billeder {
+    display: block;
+  }
+
+  .billede1 {
+    width: 100%;
+    background-position: top;
+  }
+
+  .billede2 {
+    width: 100%;
+    background-size: cover;
+  }
+
+  .tekst1, .tekst2 {
+    display: none;
+  }
+
+  .tekst1_mobil, .tekst2_mobil {
+    display: block;
+    font-size: 20px;
+  }
+
+  .tekst2_mobil p {
+    font-size: 30px;
+  }
+
 }

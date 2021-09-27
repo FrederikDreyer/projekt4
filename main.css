@@ -42,6 +42,16 @@ nav a:hover {
   text-decoration: underline;
 }
 
+/* mobil nav */
+
+#mobil_nav {
+  display: none;
+}
+
+.hamburgermenu {
+  display: none;
+}
+
 /* Aktiviteter i odense sender de andre over mod højre */
 .odense {
   margin-left: auto;
@@ -243,7 +253,6 @@ footer{
   background-color: #19444D;
   color: black;
   display: flex;
-  position: absolute;
 }
 
 
@@ -354,8 +363,8 @@ i:hover {
 
   .main_events1, .main_events2, .main_events3 {
     margin: 0 auto;
-    width: 600px;
-
+    width: 100%;
+    height: 450px;
   }
   .main_events3 {
     background-position: top;
@@ -377,18 +386,97 @@ i:hover {
   .omos_overskrift {
     margin: 20px 0 20px 40px;
   }
+
+  /* responsiv navigation */
+
+  .odense {
+    display: none;
+  }
+
+  .mobil_a {
+    display: none;
+  }
+
+  #mobil_nav {
+    display: none;
+    padding: 10px 0;
+    background-color: #19444D
+  }
+
+  #mobil_nav a {
+    display: block;
+    margin-left: 40px;
+    padding: 10px 0;
+    color: white;
+    text-decoration: none;
+  }
+
+  .hamburgermenu {
+    display: block;
+    margin-left: auto;
+  }
+
+  /* footer */
+
+  footer{
+    display: block;
+  }
+
+  .column{
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  }
+
+  .column3{
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  i {
+    padding: 0px;
+  }
+
+  .column p {
+   padding: 0;
+   margin: 0;
+   text-align: center;
+  }
+}
+
+@media screen and (max-width: 571px) {
+  .hero_img {
+    height: 430px;
+  }
+}
+
+@media screen and (max-width: 564px) {
+  .omos_wrapper {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 513px) {
+  .omos_wrapper {
+    height: 550px;
+  }
 }
 
 @media only screen and (device-width : 375px) {
+
+  .hero_img {
+    height: 410px;
+  }
+
   main section {
     display: block;
   }
 
   .main_events1, .main_events2, .main_events3 {
     margin: 0 auto;
-    width: 800px;
-    height: 600px;
-
+    width: 100%;
+    height: 450px;
   }
   .main_events3 {
     background-position: top;
@@ -404,10 +492,365 @@ i:hover {
   }
 
   .omos_wrapper {
-    height: 450px;
+    height: 550px;
   }
 
   .omos_overskrift {
     margin: 20px 0 20px 40px;
+  }
+
+  /* responsiv navigation */
+
+  .odense {
+    display: none;
+  }
+
+  .mobil_a {
+    display: none;
+  }
+
+  #mobil_nav {
+    display: none;
+    padding: 10px 0;
+    background-color: #19444D
+  }
+
+  #mobil_nav a {
+    display: block;
+    margin-left: 40px;
+    padding: 10px 0;
+    color: white;
+    text-decoration: none;
+  }
+
+  .hamburgermenu {
+    display: block;
+    margin-left: auto;
+  }
+
+  /* footer */
+
+  footer{
+    display: block;
+  }
+
+  .column{
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  }
+
+  .column3{
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  i {
+    padding: 0px;
+  }
+
+  .column p {
+   padding: 0;
+   margin: 0;
+   text-align: center;
+  }
+
+  /* text */
+
+  * p {
+    font-size: 30px;
+  }
+
+  * h1 {
+    font-size: 50px;
+  }
+
+  .main_event_text {
+    font-size: 40px;
+  }
+
+  .main_event_kunstner {
+    font-size: 45px;
+  }
+
+  .omos_text p {
+    font-size: 30px;
+  }
+
+  .hero_adresse {
+    font-size: 30px;
+  }
+
+  a {
+    font-size: 30px;
+  }
+
+  /* knapper */
+
+  button {
+    padding: 25px 100px;
+    font-size: 30px;
+  }
+
+}
+
+@media only screen and (device-width : 414px) {
+  .hero_img {
+    height: 410px;
+  }
+
+  main section {
+    display: block;
+  }
+
+  .main_events1, .main_events2, .main_events3 {
+    margin: 0 auto;
+    width: 100%;
+    height: 450px;
+  }
+  .main_events3 {
+    background-position: top;
+  }
+
+  .omos_text {
+    width: 100%;
+  }
+
+  .main_omos figure {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .omos_wrapper {
+    height: 550px;
+  }
+
+  .omos_overskrift {
+    margin: 20px 0 20px 40px;
+  }
+
+  /* responsiv navigation */
+
+  .odense {
+    display: none;
+  }
+
+  .mobil_a {
+    display: none;
+  }
+
+  #mobil_nav {
+    display: none;
+    padding: 10px 0;
+    background-color: #19444D
+  }
+
+  #mobil_nav a {
+    display: block;
+    margin-left: 40px;
+    padding: 10px 0;
+    color: white;
+    text-decoration: none;
+  }
+
+  .hamburgermenu {
+    display: block;
+    margin-left: auto;
+  }
+
+  /* footer */
+
+  footer{
+    display: block;
+  }
+
+  .column{
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  }
+
+  .column3{
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  i {
+    padding: 0px;
+  }
+
+  .column p {
+   padding: 0;
+   margin: 0;
+   text-align: center;
+  }
+
+  /* text */
+
+  * p {
+    font-size: 30px;
+  }
+
+  * h1 {
+    font-size: 50px;
+  }
+
+  .main_event_text {
+    font-size: 40px;
+  }
+
+  .main_event_kunstner {
+    font-size: 45px;
+  }
+
+  .omos_text p {
+    font-size: 30px;
+  }
+
+  .hero_adresse {
+    font-size: 30px;
+  }
+
+  a {
+    font-size: 30px;
+  }
+
+  /* knapper */
+
+  button {
+    padding: 25px 100px;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (device-width : 320px) {
+  .hero_img {
+    height: 410px;
+  }
+
+  main section {
+    display: block;
+  }
+
+  .main_events1, .main_events2, .main_events3 {
+    margin: 0 auto;
+    width: 100%;
+    height: 450px;
+  }
+  .main_events3 {
+    background-position: top;
+  }
+
+  .omos_text {
+    width: 100%;
+  }
+
+  .main_omos figure {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .omos_wrapper {
+    height: 550px;
+  }
+
+  .omos_overskrift {
+    margin: 20px 0 20px 40px;
+  }
+
+  /* responsiv navigation */
+
+  .odense {
+    display: none;
+  }
+
+  .mobil_a {
+    display: none;
+  }
+
+  #mobil_nav {
+    display: none;
+    padding: 10px 0;
+    background-color: #19444D
+  }
+
+  #mobil_nav a {
+    display: block;
+    margin-left: 40px;
+    padding: 10px 0;
+    color: white;
+    text-decoration: none;
+  }
+
+  .hamburgermenu {
+    display: block;
+    margin-left: auto;
+  }
+
+  /* footer */
+
+  footer{
+    display: block;
+  }
+
+  .column{
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  }
+
+  .column3{
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  i {
+    padding: 0px;
+  }
+
+  .column p {
+   padding: 0;
+   margin: 0;
+   text-align: center;
+  }
+
+  /* text */
+
+  * p {
+    font-size: 30px;
+  }
+
+  * h1 {
+    font-size: 50px;
+  }
+
+  .main_event_text {
+    font-size: 40px;
+  }
+
+  .main_event_kunstner {
+    font-size: 45px;
+  }
+
+  .omos_text p {
+    font-size: 30px;
+  }
+
+  .hero_adresse {
+    font-size: 30px;
+  }
+
+  a {
+    font-size: 30px;
+  }
+
+  /* knapper */
+
+  button {
+    padding: 25px 100px;
+    font-size: 30px;
   }
 }
