@@ -316,3 +316,33 @@ button:hover {
   background-color: #F7E46E;
   color: black;
 }
+
+@media only screen and (max-width: 1158px) {
+  #united {
+    display: none;
+    width: 80%;
+  }
+
+  main {
+    grid-area: main;
+    background-color: white;
+    padding: 50px 40px;
+    z-index: 1;
+  }
+
+  .site_wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "main";
+  }
+
+  .fa-bars {
+    color: black;
+  }
+
+  .nav_burger {
+    margin-left: 90%;
+  }
+}
