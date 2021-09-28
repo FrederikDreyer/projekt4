@@ -15,7 +15,7 @@ html {
   "nav main";
 }
 
-nav {
+#united {
   grid-area: nav;
   position: fixed;
   width: 100%;
@@ -317,7 +317,7 @@ button:hover {
   color: black;
 }
 
-@media only screen and (max-width: 1158px) {
+@media only screen and (max-width: 5000px) {
   #united {
     display: none;
     width: 80%;
@@ -344,5 +344,6 @@ button:hover {
 
   .nav_burger {
     margin-left: 90%;
+    position: fixed;
   }
 }
