@@ -2,8 +2,9 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/6017415a1d.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="forside.js" defer></script>
     <link rel="stylesheet" href="styleguide.css">
-    <script src="script.js" defer></script>
     <title>Style Guide</title>
   </head>
   <body>
@@ -13,7 +14,6 @@
       <nav>
         <a href="#overskrift">START</a>
         <a href="#farver">FARVER</a>
-        <a href="#grafik">GRAFIK</a>
         <a href="#logo">LOGO</a>
         <a href="#knapper">KNAPPER</a>
         <a href="#typografi">TYPOGRIFI</a>
@@ -67,7 +67,14 @@
               <figure class="farver_box4">
                 <div>
                   <p>hex: #e6f1f0</p>
-                  <p>rgb: (230, 241, 240))</p>
+                  <p>rgb: (230, 241, 240)</p>
+                </div>
+              </figure>
+
+              <figure class="farver_box6">
+                <div>
+                  <p>hex: #f7e46e</p>
+                  <p>rgb: (247, 228, 110)</p>
                 </div>
               </figure>
 
@@ -83,42 +90,8 @@
             <h3>BRUG</h3>
 
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Farverne er inspireret af ucl.dk. Den gule benyttes som hover på knapperne. De grønne farver bruges som en gennemgående tema på siden. De bruges som knapper, i navigationen samt i footer.
             </p>
-
-            <h3>KODE</h3>
-
-            <figure class="kode_box">
-              <p>
-                .farver_box1 {
-                  <br>
-                  background-color: red;
-                  <br>
-                }
-                <br>
-                .farver_box2 {
-                  <br>
-                  background-color: blue;
-                  <br>
-                }
-                <br>
-                .farver_box3 {
-                  <br>
-                  background-color: green;
-                  <br>
-                }
-              </p>
-            </figure>
-
-          </section>
-
-        <hr>
-
-        <h2 id="grafik">GRAFIK</h2>
-
-          <section>
-
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
           </section>
 
@@ -128,7 +101,17 @@
 
           <section>
 
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <div class="logo_div">
+
+              <img src="billeder/studieevent_logo.png" alt="logo" class="logo_style">
+
+            </div>
+
+            <h3>BRUG</h3>
+
+            <p>
+              Logo benyttes på samtlige sider, i både footer og navigation.
+            </p>
 
           </section>
 
@@ -138,7 +121,13 @@
 
           <section>
 
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <button type="button" name="button">SE MERE</button>
+
+            <h3>BRUG</h3>
+
+            <p>
+              Knapperne har samme farver på alle sider, men skifter i størrlse.
+            </p>
 
           </section>
 
@@ -178,9 +167,80 @@
 
           <section>
 
-            <nav>
+            <h3>BRUG</h3>
 
-            </nav>
+            <p>
+              Vi benytter forskellige navigationer. På desktop findes links til siden hele tiden. På mobil kommer de frem når brugeren trykker på burger menuen. I bunden af siden findes der er footer navigation. Det er med til at brugeren hele tiden kan finde rundt.
+            </p>
+
+            <h3>Desktop navigation:</h3>
+
+            <div class="nav_style">
+
+              <a href="" class="logo_link"><img alt="StudieEvent" src="billeder/studieevent_logo.png" width="150" height="45"> </a>
+
+              <!-- MENU -->
+
+              <a href="" class="odense">Events</a>
+              <a href="" class="mobil_a">Foreslå begivenheder</a>
+              <a href="" class="mobil_a">Kontakt</a>
+              <a href="" class="mobil_a">Er du en virksomhed?</a>
+
+            </div>
+
+            <h3>Mobil navigation</h3>
+
+            <div class="nav_style">
+              <!-- logo -->
+              <a href="index.html" class="logo_link"><img alt="StudieEvent" src="billeder/studieevent_logo.png" width="150" height="45"> </a>
+
+              <!-- MENU -->
+
+              <div class="hamburgermenu" onclick="myFunction()">
+                <i class="fas fa-bars"></i>
+              </div>
+            </div>
+
+            <!-- navigation på mobil -->
+
+            <div id="mobil_nav">
+
+              <a href="events.html" class="odense">Events</a>
+              <a href="#">Foreslå begivenheder</a>
+              <a href="kontakt_studerende.html">Kontakt</a>
+              <a href="virksomhed.html">Er du en virksomhed?</a>
+
+            </div>
+
+            <h3>Footer</h3>
+
+            <footer>
+
+              <div class="column">
+                <p>MENU</p>
+                <a href="events.html">Events</a>
+                <a href="#">Foreslå begivenhed</a>
+                <a href="kontakt_studerende.html">Kontakt</a>
+              </div>
+
+              <div class="column">
+                <p>VIRKSOMHEDER</p>
+                <a href="kontakt_virksomhed.html">Kontakt</a>
+                <a href="#">Opret begivenhed</a>
+                <a href="virksomhed.html#omos">Om os</a>
+              </div>
+
+              <div class="column3">
+
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fstudieevent%2F%3Ffbclid%3DIwAR0Utb6jzt0OOFryrOK870zXjcika5uOhiWSpe2nXyFjDjSmLcqCVV_Qgu0&h=AT2XRjbYcuQekt0F3WPudfXUamfDJtksYbZG0X_SKk6YbqVUyI6QcPLiofQoU_OKlOcRDBZIkpUfXJn4RAZW6I4eoHqYu4xMVJrWOmmVIzEb4PY7N5QMTAu0JAneZYOiyWr8-aWu" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <br>
+                <a href="index.html" class="logo_link"><img alt="StudieEvent" src="billeder/studieevent_logo.png" width="200" height="60"> </a>
+
+              </div>
+
+            </footer>
 
           </section>
 

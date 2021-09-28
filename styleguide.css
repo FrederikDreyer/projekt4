@@ -68,16 +68,16 @@ figure {
 
 }
 
-.farver_box1, .farver_box2, .farver_box3, .farver_box4, .farver_box5  {
+.farver_box1, .farver_box2, .farver_box3, .farver_box4, .farver_box5, .farver_box6  {
   width: 100%;
   margin: 10px 0;
 }
 
-.farver_box1 div, .farver_box2 div, .farver_box3 div, .farver_box4 div, .farver_box5 div {
+.farver_box1 div, .farver_box2 div, .farver_box3 div, .farver_box4 div, .farver_box5 div, .farver_box6 div {
   padding: 20px 0;
 }
 
-.farver_box1 div p, .farver_box2 div p, .farver_box3 div p, .farver_box4 div p, .farver_box5 div p {
+.farver_box1 div p, .farver_box2 div p, .farver_box3 div p, .farver_box4 div p, .farver_box5 div p, .farver_box6 div p {
   margin: 0;
   padding: 0;
   padding-left: 20px;
@@ -105,6 +105,11 @@ figure {
   color: black;
 }
 
+.farver_box6 {
+  background-color: #f7e46e;
+  color: black;
+}
+
 .kode_box {
   background-color: #f5f5f5;
 }
@@ -122,3 +127,146 @@ figure {
 }
 
 /* navigation */
+
+.nav_style {
+  display: flex;
+  align-items: center;
+  background-color: #122f36;
+  padding: 0 50px;
+}
+
+.nav_style h1 {
+  color: #F5F2F2;
+}
+
+.logo_link{
+  border: 0;
+}
+
+.logo_link:hover {
+  text-decoration: none;
+
+}
+
+.nav_style a {
+  padding: 20px;
+  text-decoration: none;
+  color: #F5F2F2;
+  font-size: 14px;
+}
+
+.nav_style a:hover {
+  text-decoration: underline;
+}
+
+/* mobil nav */
+
+#mobil_nav {
+  display: none;
+  padding: 10px 0;
+  background-color: #19444D
+}
+
+.hamburgermenu {
+  margin-left: auto;
+}
+
+/* Aktiviteter i odense sender de andre over mod højre */
+.odense {
+  margin-left: auto;
+}
+
+i {
+  padding: 10px;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #f5f2f2;
+}
+
+i:hover {
+  opacity: 50%;
+  transition: 0.5s;
+}
+
+#mobil_nav a {
+  display: block;
+  margin-left: 40px;
+  padding: 10px 0;
+  color: white;
+  text-decoration: none;
+}
+
+/* FOOTER */
+footer{
+  width: 100%;
+  background-color: #19444D;
+  color: black;
+  display: flex;
+}
+
+
+.column{
+margin-left: 100px;
+padding-bottom: 100px;
+}
+
+.column a {
+  display: block;
+  color: #f5f2f2;
+  text-decoration: none;
+  margin: 25px 0;
+}
+
+.column a:hover {
+  text-decoration: underline;
+  opacity: 50%;
+  transition: 0.25s;
+}
+
+.column p {
+ font-weight: bold;
+ color: #f5f2f2;
+ padding-top: 80px;
+ margin-bottom: 30px;
+}
+
+.column3{
+  margin-left: auto;
+  margin-right: 180px;
+  margin-top: 100px;
+}
+
+.footer_logo {
+  color: white;
+  text-decoration: none;
+}
+
+/* logo */
+
+.logo_div {
+  background-color: #122f36;
+  width: 440px;
+}
+
+.logo_style {
+  width: 400px;
+  height: 120px;
+  padding: 20px;
+}
+
+/* knapper */
+
+button {
+  border: none;
+  outline: none;
+  padding: 12px 50px;
+  background-color: #122f36;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #F7E46E;
+  color: black;
+}
