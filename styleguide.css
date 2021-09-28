@@ -64,8 +64,54 @@ figure {
   margin: 0;
 }
 
+  /*tekst*/
+#typografi{
+  text-decoration: underline;
+}
+
+#typografi1{
+  text-decoration: underline;
+}
+
+.typh2{
+  padding: 0;
+}
+
+/*IKONER*/
+
+
+.column3{
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+  background-color: #19444d;
+}
+
+i {
+  padding: 10px;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #f5f2f2;
+}
+
+i:hover {
+  opacity: 50%;
+  transition: 0.5s;
+}
+
 .farver_box_wrapper {
 
+}
+
+.kontaktformular{
+align-content: center;
+}
+
+.kontaktformular img{
+  width: 700px;
+  height: 400px;
+  object-fit:contain;
 }
 
 .farver_box1, .farver_box2, .farver_box3, .farver_box4, .farver_box5  {

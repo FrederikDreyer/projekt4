@@ -542,6 +542,7 @@ i:hover {
   }
 
   .column3{
+    display: block;
     text-align: center;
     margin: 0;
     padding: 10px 0;
