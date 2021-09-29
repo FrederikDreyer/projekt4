@@ -2,34 +2,34 @@ console.log("det virker");
 
 filterSelection("all")
 function filterSelection(c) {
-  var x, i;
+  var x, z;
   x = document.getElementsByClassName("filterDiv");
   if (c == "all") c = "";
-  for (i = 0; i < x.length; i++) {
-    removeClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) addClass(x[i], "show");
+  for (z = 0; z < x.length; z++) {
+    removeClass(x[z], "show");
+    if (x[z].className.indexOf(c) > -1) addClass(x[z], "show");
   }
 }
 
 // viser filtrede elementer
 function addClass(element, name) {
-  var i, arr1, arr2;
+  var z, arr1, arr2;
   arr1 = element.className.split(" ");
   arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {
-      element.className += " " + arr2[i];
+  for (z = 0; z < arr2.length; z++) {
+    if (arr1.indexOf(arr2[z]) == -1) {
+      element.className += " " + arr2[z];
     }
   }
 }
 
 function removeClass(element, name) {
-  var i, arr1, arr2;
+  var z, arr1, arr2;
   arr1 = element.className.split(" ");
   arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);
+  for (z = 0; z < arr2.length; z++) {
+    while (arr1.indexOf(arr2[z]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[z]), 1);
     }
   }
   element.className = arr1.join(" ");
@@ -37,8 +37,8 @@ function removeClass(element, name) {
 
 var btnContainer = document.getElementById("myBtnContainer");
 var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
+for (var z = 0; z < btns.length; z++) {
+  btns[z].addEventListener("click", function() {
     var current = document.getElementsByClassName("active");
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
@@ -193,6 +193,15 @@ function myFunction16() {
 
 function myFunction17() {
   var x = document.getElementById("myDIV17");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function myFunction18() {
+  var x = document.getElementById("mobil_nav");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {

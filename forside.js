@@ -1,5 +1,7 @@
+console.log("det virker");
+
 function myFunction() {
-  var x = document.getElementById("myDIV");
+  var x = document.getElementById("mobil_nav");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
@@ -7,10 +9,8 @@ function myFunction() {
   }
 }
 
-console.log("det virker man");
-
 function myFunction2() {
-  var x = document.getElementById("mobil_nav");
+  var x = document.getElementById("united");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {

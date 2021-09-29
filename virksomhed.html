@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <script src="https://kit.fontawesome.com/6017415a1d.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="virksomhed.js"></script>
     <link rel="stylesheet" href="virksomhed-style.css">
     <link rel="stylesheet" href="main.css">
     <title>virksomhed</title>
@@ -21,9 +22,23 @@
         <!-- MENU -->
 
         <a href="#omos" class="odense">Om os</a>
-        <a href="#">Opret begivenhed</a>
-        <a href="kontakt_virksomhed.html">Kontakt</a>
+        <a href="opret.html" class="mobil_a">Opret begivenhed</a>
+        <a href="kontakt_virksomhed.html" class="mobil_a">Kontakt</a>
+
+        <div class="hamburgermenu" onclick="myFunction()">
+          <i class="fas fa-bars"></i>
+        </div>
       </nav>
+
+      <!-- navigation på mobil -->
+
+      <div id="mobil_nav">
+
+        <a href="#omos" class="odense">Om os</a>
+        <a href="opret.html">Opret begivenhed</a>
+        <a href="kontakt_virksomhed.html">Kontakt</a>
+
+      </div>
 
       <!-- hero -->
 
@@ -80,9 +95,33 @@
 
         </figure>
 
+        <div class="tekst1_mobil">
+
+
+          <p>Vi er et organiseret team af 4 UCL studerende med rødder i multimediesigner-uddannelsen.
+             Det giver os en stærk vifte af egenskaber indenfor digitalt design, kodning, kommunikation og SoMe promovering.
+            <br>
+          </p>Vi kan derved løse langt de fleste digitale problemstillinger internt i huset,
+           og samtidigt tilbyde innovative løsninger, indenfor online reklame.
+
+           <hr>
+
+        </div>
+
         <figure class="billede2">
 
         </figure>
+
+        <div class="tekst2_mobil">
+
+
+          <p>Vi tilbyder en effektiv og let eksponering, for din organisation igennem StudieEvent.dk.
+            <br>
+          </p>Vi har også muligheder for at være behjælpelige med at skrive begivenhedsopslag,
+           og med opsætning af informationer.
+
+          <hr>
+        </div>
 
       </div>
 

@@ -16,31 +16,48 @@
 
       <!-- MENU -->
 
-      <a href="#" class="odense">Events</a>
+      <a href="events.html" class="odense">Events</a>
+      <a href="#" class="mobil_a">Foreslå begivenheder</a>
+      <a href="kontakt_studerende.html" class="mobil_a">Kontakt</a>
+      <a href="virksomhed.html" class="mobil_a">Er du en virksomhed?</a>
+
+      <div class="hamburgermenu" onclick="myFunction18()">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- navigation på mobil -->
+
+    <div id="mobil_nav">
+
+      <a href="events.html" class="odense">Events</a>
       <a href="#">Foreslå begivenheder</a>
       <a href="kontakt_studerende.html">Kontakt</a>
       <a href="virksomhed.html">Er du en virksomhed?</a>
-    </nav>
+
+    </div>
 
     <header>
       <h1> Events</h1>
     </header>
 
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')"> Alle</button>
+      <button class="btn" onclick="filterSelection('uge')"> Denne Uge</button>
+      <button class="btn" onclick="filterSelection('måned')"> Måned</button>
+      <button class="btn" onclick="filterSelection('sport')"> Sport</button>
+      <button class="btn"
+      onclick="filterSelection('alkoholfri')">Alkohol fri</button>
+      <button class="btn" onclick="filterSelection('workshop')">Workshops</button>
+      <button class="btn" onclick="filterSelection('kultur')">Kultur</button>
+      <button class="btn" onclick="filterSelection('ucl')">UCL</button>
+      <button class="btn" onclick="filterSelection('odense')">Odense</button>
+    </div>
+
+
     <main>
 
       <!-- filter knapper -->
-
-      <div id="myBtnContainer">
-        <button class="btn active" onclick="filterSelection('all')"> Alle</button>
-        <button class="btn" onclick="filterSelection('uge')"> Denne Uge</button>
-        <button class="btn" onclick="filterSelection('måned')"> Måned</button>
-        <button class="btn" onclick="filterSelection('sport')"> Sport</button>
-        <button class="btn"
-        onclick="filterSelection('alkoholfri')">Alkohol fri</button>
-        <button class="btn" onclick="filterSelection('workshop')">Workshops</button>
-        <button class="btn" onclick="filterSelection('kultur')">Kultur</button>
-        <button class="btn" onclick="filterSelection('ucl')">UCL</button>
-      </div>
 
       <div id="myDIV1">
         <button class="btn_omevent" onclick="myFunction()" type="button" name="button">X</button>
@@ -64,7 +81,7 @@ Med populære numre som “Calcutta” og “The Tiger Took My Family” er man 
           <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
           </div>
 
-          <div class="omevent_figure">
+          <div class="omevent_figure1">
 
           </div>
 
@@ -93,7 +110,7 @@ Med populære numre som “Calcutta” og “The Tiger Took My Family” er man 
           <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
           </div>
 
-          <div class="omevent_figure">
+          <div class="omevent_figure2">
 
           </div>
 
@@ -122,7 +139,7 @@ Med populære numre som “Calcutta” og “The Tiger Took My Family” er man 
           <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
           </div>
 
-          <div class="omevent_figure">
+          <div class="omevent_figure3">
 
           </div>
 
@@ -150,7 +167,7 @@ Med populære numre som “Calcutta” og “The Tiger Took My Family” er man 
           <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
           </div>
 
-          <div class="omevent_figure">
+          <div class="omevent_figure4">
 
           </div>
 
@@ -178,7 +195,7 @@ Med populære numre som “Calcutta” og “The Tiger Took My Family” er man 
           <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
           </div>
 
-          <div class="omevent_figure">
+          <div class="omevent_figure5">
 
           </div>
 
@@ -206,7 +223,7 @@ Med populære numre som “Calcutta” og “The Tiger Took My Family” er man 
           <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
           </div>
 
-          <div class="omevent_figure">
+          <div class="omevent_figure6">
 
           </div>
 
@@ -234,7 +251,7 @@ Med populære numre som “Calcutta” og “The Tiger Took My Family” er man 
           <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
           </div>
 
-          <div class="omevent_figure">
+          <div class="omevent_figure7">
 
           </div>
 
@@ -262,7 +279,7 @@ Med populære numre som “Calcutta” og “The Tiger Took My Family” er man 
           <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
           </div>
 
-          <div class="omevent_figure">
+          <div class="omevent_figure8">
 
           </div>
 
@@ -290,7 +307,7 @@ Med populære numre som “Calcutta” og “The Tiger Took My Family” er man 
           <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
           </div>
 
-          <div class="omevent_figure">
+          <div class="omevent_figure9">
 
           </div>
 
@@ -318,7 +335,7 @@ Med populære numre som “Calcutta” og “The Tiger Took My Family” er man 
           <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
           </div>
 
-          <div class="omevent_figure">
+          <div class="omevent_figure10">
 
           </div>
 
@@ -346,7 +363,7 @@ Med populære numre som “Calcutta” og “The Tiger Took My Family” er man 
           <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
           </div>
 
-          <div class="omevent_figure">
+          <div class="omevent_figure11">
 
           </div>
 
@@ -374,7 +391,7 @@ Med populære numre som “Calcutta” og “The Tiger Took My Family” er man 
           <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
           </div>
 
-          <div class="omevent_figure">
+          <div class="omevent_figure12">
 
           </div>
 
@@ -402,7 +419,7 @@ Med populære numre som “Calcutta” og “The Tiger Took My Family” er man 
           <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
           </div>
 
-          <div class="omevent_figure">
+          <div class="omevent_figure13">
 
           </div>
 
@@ -430,7 +447,7 @@ Med populære numre som “Calcutta” og “The Tiger Took My Family” er man 
           <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
           </div>
 
-          <div class="omevent_figure">
+          <div class="omevent_figure14">
 
           </div>
 
@@ -458,7 +475,7 @@ Med populære numre som “Calcutta” og “The Tiger Took My Family” er man 
           <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
           </div>
 
-          <div class="omevent_figure">
+          <div class="omevent_figure15">
 
           </div>
 
@@ -486,7 +503,7 @@ Med populære numre som “Calcutta” og “The Tiger Took My Family” er man 
           <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
           </div>
 
-          <div class="omevent_figure">
+          <div class="omevent_figure16">
 
           </div>
 
@@ -516,7 +533,7 @@ Med populære numre som “Calcutta” og “The Tiger Took My Family” er man 
           <i class="fab fa-instagram" style="font-size: 30px; color: black;"></i>
           </div>
 
-          <div class="omevent_figure">
+          <div class="omevent_figure17">
 
           </div>
 
@@ -525,11 +542,9 @@ Med populære numre som “Calcutta” og “The Tiger Took My Family” er man 
 
 
 
-
-      <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
       <div class="wrapper">
 
-        <div id="bombay" class="filterDiv uge måned kultur">
+        <div id="bombay" class="filterDiv uge måned kultur odense">
           <p>DR. Bombay <br> 28.09.2021</p>
           <br>
           <button onclick="myFunction()" class="btn_semere" type="button" name="button">Se mere</button>
@@ -571,13 +586,13 @@ Med populære numre som “Calcutta” og “The Tiger Took My Family” er man 
           <button onclick="myFunction7()" class="btn_semere" type="button" name="button">Se mere</button>
         </div>
 
-        <div id="standup" class="filterDiv måned kultur">
+        <div id="standup" class="filterDiv måned kultur odense">
           <p>Stand-up <br> 16.10.2021</p>
           <br>
           <button onclick="myFunction8()" class="btn_semere" type="button" name="button">Se mere</button>
         </div>
 
-        <div id="sulka" class="filterDiv kultur måned">
+        <div id="sulka" class="filterDiv kultur måned odense">
           <p>Sulka koncert <br> 23.10.2021</p>
           <br>
           <button onclick="myFunction9()" class="btn_semere" type="button" name="button">Se mere</button>
@@ -589,19 +604,19 @@ Med populære numre som “Calcutta” og “The Tiger Took My Family” er man 
           <button onclick="myFunction10()" class="btn_semere" type="button" name="button">Se mere</button>
         </div>
 
-        <div id="bowling" class="filterDiv måned">
+        <div id="bowling" class="filterDiv måned odense">
           <p>Øl Bowling <br> 30.10.2021</p>
           <br>
           <button onclick="myFunction11()" class="btn_semere" type="button" name="button">Se mere</button>
         </div>
 
-        <div id="brunner" class="filterDiv workshop uge måned alkoholfri">
+        <div id="brunner" class="filterDiv workshop uge måned alkoholfri odense">
           <p>Brunsviger Workshop <br> 29.09.2021</p>
           <br>
           <button onclick="myFunction12()" class="btn_semere" type="button" name="button">Se mere</button>
         </div>
 
-        <div id="pub" class="filterDiv måned">
+        <div id="pub" class="filterDiv måned odense">
           <p>Pub Quiz <br> 15.10.2021</p>
           <br>
           <button onclick="myFunction13()" class="btn_semere" type="button" name="button">Se mere</button>
@@ -619,13 +634,13 @@ Med populære numre som “Calcutta” og “The Tiger Took My Family” er man 
           <button onclick="myFunction15()" class="btn_semere" type="button" name="button">Se mere</button>
         </div>
 
-        <div id="leth" class="filterDiv måned kultur">
+        <div id="leth" class="filterDiv måned kultur odense">
           <p>Jørgen Leth Fordrag <br> 11.10.2021</p>
           <br>
           <button onclick="myFunction16()" id="myBtn" class="btn_semere" type="button" name="button">Se mere</button>
         </div>
 
-        <div id="ol" class="filterDiv måned kultur uge">
+        <div id="ol" class="filterDiv måned kultur uge odense">
           <p>Ølsmagning <br> 02.10.2021</p>
           <br>
           <button onclick="myFunction17()" class="btn_semere" type="button" name="button">Se mere</button>

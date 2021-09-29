@@ -7,13 +7,14 @@ input[type=text], select, textarea {
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box;
+
     margin-top: 6px;
     margin-bottom: 16px;
-    resize: vertical
+
 }
 
   input[type=submit] {
+    width: 100%;
     background-color: #122f36;
     color: white;
     padding: 12px 20px;
@@ -22,12 +23,19 @@ input[type=text], select, textarea {
     cursor: pointer;
   }
 
+  .dato {
+    display: block;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+
   input[type=submit]:hover {
     background-color: #f7e46e;
     color: black;
   }
 
   .container {
+    width: 100%;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
@@ -39,15 +47,6 @@ input[type=text], select, textarea {
       padding: 50px 0px;
   }
 
-  h2 {
-    text-align: center;
-  }
-
-  h3 {
-    text-align: center;
-    padding: 2rem 200px;
-  }
-
 
   #myDIV {
     width: 100px;
@@ -57,10 +56,30 @@ input[type=text], select, textarea {
     display: none;
     position: absolute;
     bottom: 75px;
-    margin-left: 250px;
+    margin-left: 50px;
   }
 
 #myDIV i {
     color: green;
     font-size: 250px;
+}
+
+@media only screen and (device-width : 375px) {
+  main section {
+    margin: 10px;
+  }
+
+  .container {
+    padding: 5px;
+    padding-bottom: 50px;
+  }
+
+  input[type=text], select, textarea {
+    height: 100px;
+  }
+
+  label {
+    font-size: 40px;
+    color: deeppink;
+  }
 }

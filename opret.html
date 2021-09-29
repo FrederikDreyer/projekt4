@@ -6,9 +6,7 @@
     <link rel="stylesheet" href="kontakt_virksomhed.css">
     <script src="kontakt_virksomhed.js" defer></script>
     <script src="https://kit.fontawesome.com/635f0b0958.js" crossorigin="anonymous"></script>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foreslå begivenhed</title>
+    <title>Kontakt for virksomheder</title>
 </head>
 
 <body>
@@ -19,10 +17,9 @@
 
     <!-- MENU -->
 
-    <a href="events.html" class="odense">Events</a>
-    <a href="#" class="mobil_a">Foreslå begivenheder</a>
-    <a href="kontakt_studerende.html" class="mobil_a">Kontakt</a>
-    <a href="virksomhed.html" class="mobil_a">Er du en virksomhed?</a>
+    <a href="virksomhed.html#omos" class="odense">Om os</a>
+    <a href="#" class="mobil_a">Opret begivenhed</a>
+    <a href="kontakt_virksomhed.html" class="mobil_a">Kontakt</a>
 
     <div class="hamburgermenu" onclick="myFunction2()">
       <i class="fas fa-bars"></i>
@@ -33,37 +30,40 @@
 
   <div id="mobil_nav">
 
-    <a href="events.html" class="odense">Events</a>
-    <a href="#">Foreslå begivenheder</a>
-    <a href="kontakt_studerende.html">Kontakt</a>
-    <a href="virksomhed.html">Er du en virksomhed?</a>
+    <a href="virksomhed.html#omos" class="odense">Om os</a>
+    <a href="#">Opret begivenhed</a>
+    <a href="kontakt_virksomhed.html">Kontakt</a>
 
   </div>
 
     <main>
 
-<h1>FORESLÅ BEGIVENHED</h1>
-
-<h2>Synes du vi mangler en event? Så giv os en idé om hvilken event du gerne vil se, fremover. </h2>
+<h1>OPRET EVENT</h1>
 
 <section>
             <!-- KONTAKT FORMULAR -->
             <div class="container">
                 <form action="action_page.php">
 
-                  <label for="navn">Navn</label>
+                  <label for="navn">Arrangør</label>
                   <input type="text" id="navn" name="navn">
 
-                  <label for="email">Email</label>
-                  <input type="text" id="email" name="email">
+                  <label for="date">Dato</label>
+                  <input type="datetime-local" id="email" name="email" class="dato">
 
-                  <label for="beskriv">Beskriv din idé</label>
-                  <textarea id="beskriv" name="beskriv" style="height:200px"></textarea>
+                  <label for="virksomhed">Adresse</label>
+                  <input type="text" id="virksomhed" name="virksomhed">
+
+                  <label for="virksomhed">Pris</label>
+                  <input type="text" id="virksomhed" name="virksomhed">
+
+                  <label for="besked">Om event</label>
+                  <textarea id="besked" name="besked" style="height:200px"></textarea>
 
                   <!-- <input type="submit" value="Send"> -->
 
                   <button type="button" name="button" onclick="myFunction()">
-                 Send dit forslag</button>
+                 Send</button>
 
                 <div id="myDIV">
                     <i class="fas fa-check-circle"></i>
@@ -77,25 +77,25 @@
 
       <footer>
         <div class="column">
-          <p>Menu:</p>
-          <a href="#">Odense</a>
-          <a href="#">UCL</a>
+          <p>MENU</p>
+          <a href="events.html">Events</a>
           <a href="#">Foreslå begivenhed</a>
-          <a href="#">Kontakt</a>
+          <a href="kontakt_studerende.html">Kontakt</a>
         </div>
 
         <div class="column">
-          <p>Virksomheder:</p>
-          <a href="#">Log ind</a>
-          <a href="#">Kontakt</a>
+          <p>VIRKSOMHEDER</p>
+          <a href="kontakt_virksomhed.html">Kontakt</a>
           <a href="#">Opret begivenhed</a>
-          <a href="#">Om os</a>
+          <a href="virksomhed.html#omos">Om os</a>
         </div>
 
         <div class="column3">
           <a href="#"><i class="fab fa-facebook-square"></i></a>
           <a href="#"><i class="fab fa-instagram"></i></a>
           <a href="#"><i class="fab fa-youtube"></i></a>
+          <br>
+          <a href="index.html" class="logo_link"><img alt="StudieEvent" src="billeder/studieevent_logo.png" width="200" height="60"> </a>
         </div>
 
       </footer>

@@ -165,7 +165,7 @@ header h1 {
 
 /* popup tekst om event */
 
-#myDIV1, #myDIV2, #myDIV3, #myDIV4, #myDIV5, #myDIV6, #myDIV7, #myDIV8, #myDIV9, #myDIV10, #myDIV11, #myDIV12, #myDIV13, #myDIV14, #myDIV15, #myDIV16, #myDIV17     {
+#myDIV1, #myDIV2, #myDIV3, #myDIV4, #myDIV5, #myDIV6, #myDIV7, #myDIV8, #myDIV9, #myDIV10, #myDIV11, #myDIV12, #myDIV13, #myDIV14, #myDIV15, #myDIV16, #myDIV17 {
   width: auto;
   height: 500px;
   top: 110px;
@@ -207,14 +207,81 @@ h2 {
   margin-top: 0;
 }
 
-.omevent_figure {
-  background-image: url(billeder/brunsviger.jpeg);
-  width: 400px;
+.omevent_figure1, .omevent_figure2, .omevent_figure3, .omevent_figure4, .omevent_figure5, .omevent_figure6, .omevent_figure7, .omevent_figure8, .omevent_figure9, .omevent_figure10, .omevent_figure11, .omevent_figure12, .omevent_figure13, .omevent_figure14, .omevent_figure15, .omevent_figure16, .omevent_figure17 {
+  width: 50%;
   height: 400px;
   margin: 50px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.omevent_figure1 {
+  background-image: url(billeder/drbombay-test.jpeg);
+}
+
+.omevent_figure2 {
+  background-image: url(billeder/bratspil.jpg);
+}
+
+.omevent_figure3{
+  background-image: url(billeder/volleyball.jpg);
+}
+
+.omevent_figure4 {
+  background-image: url(billeder/traning.jpg);
+}
+
+.omevent_figure5 {
+  background-image: url(billeder/fodbold.jpg);
+}
+
+.omevent_figure6 {
+  background-image: url(billeder/code.jpg);
+}
+
+.omevent_figure7 {
+  background-image: url(billeder/adobe.jpeg);
+}
+
+.omevent_figure8 {
+  background-image: url(billeder/mic.jpg);
+}
+
+.omevent_figure9 {
+  background-image: url(billeder/sulka.jpeg);
+}
+
+.omevent_figure10 {
+  background-image: url(billeder/fredagsbar.jpg);
+}
+
+.omevent_figure11 {
+  background-image: url(billeder/bowling.jpeg);
+}
+
+.omevent_figure12 {
+  background-image: url(billeder/brunsviger.jpeg);
+}
+
+.omevent_figure13 {
+  background-image: url(billeder/pub.jpg);
+}
+
+.omevent_figure14 {
+  background-image: url(billeder/network.jpg);
+}
+
+.omevent_figure15 {
+  background-image: url(billeder/videowork.jpg);
+}
+
+.omevent_figure16 {
+  background-image: url(billeder/nastenleth.jpg);
+}
+
+.omevent_figure17 {
+  background-image: url(billeder/beer.jpg);
 }
 
 i {
@@ -228,6 +295,31 @@ i {
   #myBtnContainer {
     padding: 0 150px;
   }
+
+  #myDIV1, #myDIV2, #myDIV3, #myDIV4, #myDIV5, #myDIV6, #myDIV7, #myDIV8, #myDIV9, #myDIV10, #myDIV11, #myDIV12, #myDIV13, #myDIV14, #myDIV15, #myDIV16, #myDIV17 {
+    width: auto;
+    right: 180px;
+    left: 180px;
+  }
+
+}
+
+@media screen and (max-width: 1302px) {
+  .omevent_wrapper {
+    display: block;
+  }
+
+  .omevent_text {
+    width: auto;
+  }
+
+  .omevent_figure1, .omevent_figure2, .omevent_figure3, .omevent_figure4, .omevent_figure5, .omevent_figure6, .omevent_figure7, .omevent_figure8, .omevent_figure9, .omevent_figure10, .omevent_figure11, .omevent_figure12, .omevent_figure13, .omevent_figure14, .omevent_figure15, .omevent_figure16, .omevent_figure17 {
+    display: none;
+  }
+
+  #myDIV1, #myDIV2, #myDIV3, #myDIV4, #myDIV5, #myDIV6, #myDIV7, #myDIV8, #myDIV9, #myDIV10, #myDIV11, #myDIV12, #myDIV13, #myDIV14, #myDIV15, #myDIV16, #myDIV17 {
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 1073px) {
@@ -236,5 +328,150 @@ i {
   }
   #myBtnContainer {
     padding: 0 75px;
+  }
+
+  #myDIV1, #myDIV2, #myDIV3, #myDIV4, #myDIV5, #myDIV6, #myDIV7, #myDIV8, #myDIV9, #myDIV10, #myDIV11, #myDIV12, #myDIV13, #myDIV14, #myDIV15, #myDIV16, #myDIV17 {
+    width: auto;
+    right: 105px;
+    left: 105px;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .btn {
+    margin: 2px;
+  }
+}
+
+@media screen and (max-width: 561px) {
+  .filterDiv {
+    width: 180px;
+  }
+
+  #myDIV1, #myDIV2, #myDIV3, #myDIV4, #myDIV5, #myDIV6, #myDIV7, #myDIV8, #myDIV9, #myDIV10, #myDIV11, #myDIV12, #myDIV13, #myDIV14, #myDIV15, #myDIV16, #myDIV17 {
+    width: auto;
+    right: 10px;
+    left: 10px;
+    top: 10px;
+  }
+}
+
+@media screen and (max-width: 521px) {
+  .wrapper {
+    margin: 0 auto;
+  }
+  #myBtnContainer {
+    padding-left: 10px;
+    margin: 0;
+  }
+  .filterDiv {
+    width: 100%;
+  }
+
+  main {
+    margin: 10px;
+  }
+
+  #leth {
+    background-position: top;
+  }
+}
+
+@media only screen and (device-width : 375px) {
+  .wrapper {
+    margin: 0 auto;
+  }
+  #myBtnContainer {
+    padding-left: 10px;
+    margin: 0;
+  }
+  .filterDiv {
+    width: 100%;
+    height: 800px
+  }
+
+  main {
+    margin: 10px;
+  }
+
+  #leth {
+    background-position: top;
+  }
+
+  .filterDiv p {
+    margin: 600px auto 0 auto;
+    font-size: 30px;
+    width: 313px;
+  }
+
+  .btn_semere {
+    padding: 25px 100px;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (device-width : 414px) {
+  .wrapper {
+    margin: 0 auto;
+  }
+  #myBtnContainer {
+    padding-left: 10px;
+    margin: 0;
+  }
+  .filterDiv {
+    width: 100%;
+    height: 800px
+  }
+
+  main {
+    margin: 10px;
+  }
+
+  #leth {
+    background-position: top;
+  }
+
+  .filterDiv p {
+    margin: 600px auto 0 auto;
+    font-size: 30px;
+    width: 313px;
+  }
+
+  .btn_semere {
+    padding: 25px 100px;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (device-width : 320px) {
+  .wrapper {
+    margin: 0 auto;
+  }
+  #myBtnContainer {
+    padding-left: 10px;
+    margin: 0;
+  }
+  .filterDiv {
+    width: 100%;
+    height: 800px
+  }
+
+  main {
+    margin: 10px;
+  }
+
+  #leth {
+    background-position: top;
+  }
+
+  .filterDiv p {
+    margin: 600px auto 0 auto;
+    font-size: 30px;
+    width: 313px;
+  }
+
+  .btn_semere {
+    padding: 25px 100px;
+    font-size: 30px;
   }
 }

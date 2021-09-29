@@ -7,8 +7,6 @@
     <link rel="stylesheet" href="kontakt_virksomhed.css">
     <script src="kontakt_virksomhed.js" defer></script>
     <script src="https://kit.fontawesome.com/635f0b0958.js" crossorigin="anonymous"></script>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontakt for virksomheder</title>
 </head>
 
@@ -20,18 +18,28 @@
 
     <!-- MENU -->
 
-    <a href="#omos" class="odense">Om os</a>
+    <a href="virksomhed.html#omos" class="odense">Om os</a>
+    <a href="#" class="mobil_a">Opret begivenhed</a>
+    <a href="kontakt_virksomhed.html" class="mobil_a">Kontakt</a>
+
+    <div class="hamburgermenu" onclick="myFunction2()">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- navigation på mobil -->
+
+  <div id="mobil_nav">
+
+    <a href="virksomhed.html#omos" class="odense">Om os</a>
     <a href="#">Opret begivenhed</a>
     <a href="kontakt_virksomhed.html">Kontakt</a>
-  </nav>
+
+  </div>
 
     <main>
 
 <h1>KONTAKT FOR VIRKSOMHEDER</h1>
-
-<h2>Bliv en del af StudieEvent.dk og få eksponeret jeres events til en bredere målgruppe.</h2>
-
-<h3>StudieEvent.dk samarbejder med en bred gruppe af eksterne samarbejdspartnere. Ønsker dig og din virksomhed at være en del af vores platform, er I velkommen til at kontakte os. Vi glæder os til at høre fra dig.</h3>
 
 <section>
             <!-- KONTAKT FORMULAR -->
@@ -48,7 +56,7 @@
                   <input type="text" id="virksomhed" name="virksomhed">
 
                   <label for="besked">Besked</label>
-                  <textarea id="besked" name="besked" style="height:200px"></textarea>
+                  <textarea id="besked" name="besked"></textarea>
 
                   <!-- <input type="submit" value="Send"> -->
 
